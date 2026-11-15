@@ -304,4 +304,5 @@ If you use this code, please cite the paper:
 }
 ```
 
-Licence: to be stated in `LICENSE` before release.
+The code is released under the MIT License (`LICENSE`). The data files keep the licences of their sources
+stated above; in particular the sunspot series may not be used commercially.
