@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trace-instruments"
+version = "1.0.0"
+description = "Approximate online credit-assignment rules for recurrent networks, analysed as instruments: library, experiments, analysis and figures of the paper."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.2",
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "matplotlib>=3.8",
+    "sympy>=1.12",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "black>=24"]
+
+[tool.setuptools.packages.find]
+include = ["trace_instruments*", "experiments*", "analysis*", "plotting*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.black]
+line-length = 120
+target-version = ["py310"]

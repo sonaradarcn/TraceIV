@@ -1,0 +1,6 @@
+rebuilt equals shipped file to 4 decimals: True
+windows are disjoint: True
+window starts (bin index): [0, 8000, 19422, 30389, 38389, 46389, 54389, 62389, 70389, 78389, 86389, 94389, 104368, 112368, 120368, 131270, 139839, 147839, 162010, 171482]
+interpolated minutes in the 20 windows: 277 of 1600000
+windows with an interpolated gap across the split: 0
+OK

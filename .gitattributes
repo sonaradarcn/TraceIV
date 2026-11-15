@@ -1,0 +1,7 @@
+# source files: LF everywhere
+* text=auto eol=lf
+# result and data files are stored byte for byte; runs_checksums.json verifies them
+results/** -text
+data/*.txt -text
+*.png binary
+*.pdf binary

@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+# outputs that are regenerated; the result files of the paper in results/ are tracked
+/figures/
+/demo_results/

@@ -1,0 +1,7 @@
+# Versions with which the results of the paper were produced and the tests pass (Python 3.11).
+# The GPU runs used the CUDA 13.0 build of torch; any recent CPU or CUDA build works.
+torch==2.14.1
+numpy==2.4.6
+scipy==1.17.1
+matplotlib==3.11.2
+sympy==1.14.0
