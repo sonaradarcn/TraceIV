@@ -298,9 +298,8 @@ If you use this code, please cite the paper:
 ```bibtex
 @article{credit_assignment_instruments,
   title  = {Credit-assignment rules as instruments: what an approximate online learning rule converges to, and when},
-  author = {Yi, Junfei and Wang, Yuxiang and Ma, Chengyu},
   year   = {2026},
-  note   = {Manuscript submitted for publication}
+  note   = {Manuscript submitted}
 }
 ```
 
